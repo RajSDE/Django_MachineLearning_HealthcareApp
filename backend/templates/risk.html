@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk | Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            background: url('https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000') no-repeat center center/cover;
+            /* background: linear-gradient(37deg, #bbbbbb, white); */
+            height: 100vh;
+            width: 100vw;
+            z-index: -1;
+            opacity: 0.89;
+        }
+
+        .card-header {
+            padding: 0.75rem 1.25rem;
+            margin-bottom: 0;
+            background-color: rgba(255, 255, 255, 0.03);
+            border-bottom: 1px solid rgba(0, 0, 0, .125);
+        }
+
+        .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card-body {
+            color: rgb(255, 255, 255);
+            width: 100%;
+            background-color: red
+        }
+        .btn-primary{
+            margin: auto 5px
+        }
+    </style>
+</head>
+
+<body style="height: 100vh;display: flex;">
+    <div class="main" style="margin: auto; box-shadow: 0px 0px 10px -5px; width: 75vw;">
+        <div class="card text-center">
+            <div class="card-header">
+                <h1>Result</h1>
+            </div>
+            <div class="card-body">
+                <h3 class="card-title">You are at Risk</h3>
+                <p class="card-text">You are at risk so you need to visit your nearest doctor to check yourself for
+                    better health condition information.</p>
+                <a href="./" class="btn btn-primary">Recheck</a>
+                <a href="../" class="btn btn-primary">Go Back</a>
+            </div>
+            <div class="card-footer text-muted">
+                After 7 Days you need to recheck your diseases again for better health
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
